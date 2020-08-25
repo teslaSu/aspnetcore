@@ -21,6 +21,8 @@ import org.junit.jupiter.api.Test;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 
+import com.microsoft.signalr.messagepack.MessagePackHubProtocol;
+
 class MessagePackHubProtocolTest {
     private MessagePackHubProtocol messagePackHubProtocol = new MessagePackHubProtocol();
 
